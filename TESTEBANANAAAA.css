@@ -1,0 +1,73 @@
+.tudo{
+    grid-template-areas: 
+    
+    "nav"
+    "main"
+    "footer";
+}
+
+@font-face {
+    font-family: groovy;
+    src: url(vintage_avocado/Vintage\ Avocado.ttf);
+	
+  }
+
+  .navbar {
+    grid-area: nav;
+    background: white;
+    margin: 0;
+    padding: 0.7vw;
+    font-family: groovy;
+    grid-area: 100%;
+    box-shadow: 0px 15px 15px #1b1b1b;
+  }
+  
+  .imenu {
+    padding: 0.8vw;
+    margin: 0vw;
+    text-decoration: none;
+  }
+  
+  .navbar-brand {
+    color: white;
+    text-align: center;
+  }
+  
+  .navbar-brand:hover {
+ background-color: whitesmoke ;
+    color: white;
+ 
+    text-decoration: underline;
+  }
+  
+  main {
+    grid-area: main;
+	
+  }
+
+.aa {
+    width: 8vw;
+ } 
+
+.malu{
+    background-color: red;
+    height: 100vw;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+footer{
+    background-color: chocolate;
+    height: 100vw;
+}
